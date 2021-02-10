@@ -178,15 +178,7 @@
         margin-bottom: 20px;
     }
 
-    .card-1 .card-line-design{
-        background-color: #fff;
-    }
-
-    .card-1 i{
-        color: #fff;
-    }
-
-    .card-1, .card:hover{
+    .card:hover{
         color: #fff;
         background-color: #e9204f;
         transition: .5s;
@@ -665,7 +657,7 @@
     }
 
     .footer-top-col i:hover{
-        color: #e9204f;
+        background-color: #e9204f;
         font-size: 30px;
         transition: .3s;
     }
@@ -1009,8 +1001,7 @@
 
         .client-text-col{
             width: 100%;
-            margin-left: 0;
-            padding-left: 0;
+            padding-left: 12px;
         }
 
         .client-heading{
@@ -1052,9 +1043,15 @@
             margin-bottom: 40px;
         }
 
+        .footer-top-col i:hover{
+            background-color: #e9204f;
+            font-size: 28px;
+            transition: .3s;
+        }
+
         .i-col i{
             font-size: 17px;
-            margin: 0 15px  ;
+            margin: 0 11px;
         }
 
         .footer-heading{
